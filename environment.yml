@@ -1,4 +1,4 @@
-name: 
+name: nisar_gcov_cookbook
 channels:
   - conda-forge
 dependencies:
