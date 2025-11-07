@@ -3,19 +3,27 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: NISAR GCOV Cookbook
+  github: https://github.com/ASFOpenSARlab/NISAR_GCOV_Cookbook
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: The Alaska Satellite Facility
+  license: BSD-3
+  copyright: '2025'
   toc:
     - file: README.md
-    - title: Preamble
+    - title: Introduction to NISAR GCOV data
       children:
-        - file: notebooks/how-to-cite.md
-    - title: Introduction
+      - file: notebooks/GCOV_intro.md
+      - url: https://nisar.asf.earthdatacloud.nasa.gov/NISAR-SAMPLE-DATA/DOCS/NISAR_D-102274_RevE_NASA_SDS_Product_Specification_L2_GCOV_Nov8_2024_w-sigs.pdf
+        title: NISAR GCOV Product Specification
+    - title: Prerequisites
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/create_software_environment.ipynb
+        - file: notebooks/set_up_Earthdata_Login.md
+    - title: Placeholder (unorganized notebooks)
+      children:
+        - file: notebooks/NISAR_GCOV_Time_Series_Example.ipynb
+        - file: notebooks/NISAR_GCOV_SARChangeDetectionMethods.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: ASFOpenSARlab/NISAR_GCOV_Cookbook
