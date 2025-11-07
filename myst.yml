@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
+project:
+  title: Project Pythia Cookbook Template
+  github: https://github.com/projectpythia/cookbook-template
+  authors:
+    - name: The Project Pythia Community
+  copyright: '2024'
+  toc:
+    - file: README.md
+    - title: Preamble
+      children:
+        - file: notebooks/how-to-cite.md
+    - title: Introduction
+      children:
+        - file: notebooks/notebook-template.ipynb
+  jupyter:
+      binder:
+        repo: projectpythia/cookbook-template
