@@ -1,8 +1,4 @@
 # See docs at: https://mystmd.org/guide/frontmatter
-site:
-  title: NISAR GCOV Cookbook
-  url: https://asfopensarlab.github.io
-  base: /NISAR_GCOV_Cookbook/
 version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
