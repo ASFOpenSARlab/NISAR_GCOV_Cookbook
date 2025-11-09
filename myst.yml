@@ -29,4 +29,4 @@ project:
         repo: ASFOpenSARlab/NISAR_GCOV_Cookbook
 html:
   theme:
-    name: sphinx-pythia-theme
+    name: book-theme
