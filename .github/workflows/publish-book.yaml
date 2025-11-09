@@ -12,7 +12,6 @@ jobs:
     uses: ASFOpenSARlab/cookbook-actions/.github/workflows/build-book.yaml@main
     with:
       environment_manager: pixi
-      base_url: ''
 
   deploy:
     needs: build
