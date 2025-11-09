@@ -1,5 +1,7 @@
 # Getting Started with the NISAR GCOV Cookbook
 
+## ALERT: This Jupyter Book is under active development and does not currently use real NISAR data
+
 <img src="thumbnails/thumbnail.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
