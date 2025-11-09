@@ -14,7 +14,6 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Motivation
 
-
 (Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
 
 ## Authors
