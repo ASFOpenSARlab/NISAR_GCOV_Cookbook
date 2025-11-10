@@ -25,8 +25,8 @@ project:
         - file: notebooks/NISAR_GCOV_Time_Series_Example.ipynb
         - file: notebooks/NISAR_GCOV_SARChangeDetectionMethods.ipynb
   jupyter:
-      binder:
-        repo: ASFOpenSARlab/NISAR_GCOV_Cookbook
+    binder:
+      url: https://binder.projectpythia.org/
 site:
   options:
     favicon: favicon.ico
