@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-    if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ASFOpenSARlab/cookbook-actions/.github/workflows/build-book.yaml@main
     with:
       environment_manager: pixi
@@ -18,5 +17,4 @@ jobs:
 
 
   link-check:
-    if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/link-checker.yaml@main
