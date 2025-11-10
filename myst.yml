@@ -27,6 +27,3 @@ project:
   jupyter:
       binder:
         repo: ASFOpenSARlab/NISAR_GCOV_Cookbook
-html:
-  theme:
-    name: book-theme
