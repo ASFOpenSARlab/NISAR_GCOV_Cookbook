@@ -21,10 +21,10 @@ fi
 
 # --- Register kernels for each Pixi env you need ---
 pixi run -e isce3 -- python -m ipykernel install --user \
-  --name "isce3" --display-name "Pixi (isce3)"
+  --name "pixi-isce3" --display-name "Pixi (isce3)"
 
 pixi run -e default -- python -m ipykernel install --user \
-  --name "python3" --display-name "Python 3 (default)"
+  --name "pixi-python3" --display-name "Python 3 (default)"
 
 echo "=== INSTALLED KERNELS ==="
 jupyter kernelspec list
