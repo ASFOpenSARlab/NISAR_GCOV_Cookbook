@@ -2,6 +2,8 @@ execute:
   execute_notebooks: binder
   timeout: 1200
   allow_errors: True
+  exclude_patterns:
+    - "notebooks/NISAR_GCOV*"
 
 sphinx:
   config:
