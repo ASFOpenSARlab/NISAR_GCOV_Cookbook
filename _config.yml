@@ -8,4 +8,4 @@ sphinx:
     html_theme: book-theme
     html_theme_options:
       launch_buttons:
-        binderhub_url: https://binder.projectpythia.org/
+        binderhub_url: "https://binder.pangeo.io"
