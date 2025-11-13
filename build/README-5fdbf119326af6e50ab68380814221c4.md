@@ -9,35 +9,34 @@
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+NISAR GCOV, is a primary data product from the NISAR mission. GCOV, or Geocoded Coverage, provides calibrated, L-band radar data on a standardized grid, making it straightforward to load, analyze and explore in Python. 
+
+After learning to access and visualize GCOV data in this cookbook, you will be ready to begin applying NISAR imagery to a wide range of Earth science applications, including ecosystem monitoring, hydrology, cryosphere studies, natural hazards, and surface change analysis.
+
 
 ## Motivation
 
+The NISAR mission will provide one of the most comprehensive global radar datasets ever collected, offering new opportunities to study the dynamic Earth. This cookbook is designed to help a wide range of users, including students, researchers, and communities, to begin working with NISAR’s GCOV products.
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+By introducing clear, hands-on examples, we hope to make the mission’s powerful data resources simple, approachable and usable. Our goal is to help you build the skills needed to explore GCOV data with confidence and apply NISAR’s capabilities to your own scientific, environmental, or community-focused questions.
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
-
-### Contributors
-
-
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
-</a>
+Lewandowski, Alex. White, Julia. (Several others will be added as we produce notebooks)
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+### Section 1: Accessing NISAR GCOV Products
+Learn where GCOV files come from, how to download them, and how to open them in Python.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 2: Understanding GCOV Contents
+Explore the structure of GCOV files and the meaning of key layers.
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+### Section 3: Visualizing GCOV Data
+Create basic plots and maps using NISAR GCOV data.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
-
-(Add content for this section, e.g., "Example workflows include ... ")
+### Section 4: Building Simple Analyses
+Apply GCOV data to introductory examples from ecosystems, hydrology, hazards, and the cryosphere.
 
 ## Running the Notebooks
 
