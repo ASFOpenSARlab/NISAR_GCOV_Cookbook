@@ -3,13 +3,13 @@
 ## ALERT: This Jupyter Book is under active development and currently uses pre-launch test data
 
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
+[![Jupyter Book](https://img.shields.io/badge/Open-NISAR%20GCOV%20Cookbook-brightgreen?logo=jupyter)](https://asfopensarlab.github.io/NISAR_GCOV_Cookbook/)[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 _See the [Cookbook Contributor's Guide](https://projectpythia.org/cookbook-guide) for step-by-step instructions on how to create your new Cookbook and get it hosted on the [Pythia Cookbook Gallery](https://cookbooks.projectpythia.org)!_
 
-NISAR GCOV, is a primary data product from the NISAR mission. GCOV, or Geocoded Coverage, provides calibrated, L-band radar data on a standardized grid, making it straightforward to load, analyze and explore in Python. 
+NISAR GCOV, is a primary data product from the NISAR mission. GCOV, or Geocoded Polarimetric Covariance, provides calibrated, L-band radar data on a standardized grid, making it straightforward to load, analyze and explore in Python. 
 
 After learning to access and visualize GCOV data in this cookbook, you will be ready to begin applying NISAR imagery to a wide range of Earth science applications, including ecosystem monitoring, hydrology, cryosphere studies, natural hazards, and surface change analysis.
 
